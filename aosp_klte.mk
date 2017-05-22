@@ -24,7 +24,7 @@ $(call inherit-product, device/samsung/klte/full_klte.mk)
 # Use Magisk
 # DEFAULT_ROOT_METHOD := magisk
 
-PRODUCT_NAME := cos_klte
+PRODUCT_NAME := aosp_klte
 PRODUCT_DEVICE := klte
 PRODUCT_MANUFACTURER := Samsung
 PRODUCT_MODEL := G900x
