@@ -1,7 +1,14 @@
 [
-{
-"repository": "SlimRoms/kernel_samsung_klte",
-"target_path": "kernel/samsung/klte",
-"branch": "ng7.1"
+  {
+	"repository": "SlimRoms/kernel_samsung_klte",
+	"target_path": "kernel/samsung/klte"
+  },
+  {
+    "repository":  "SlimRoms/device_samsung_klte-common",
+    "target_path": "device/samsung/klte-common"
+},
+  {
+    "repository":  "SlimRoms/device_samsung_klte",
+    "target_path": "device/samsung/klte"
 }
 ]
