@@ -31,6 +31,8 @@ $(call inherit-product, device/samsung/klte/full_klte.mk)
 $(call inherit-product, vendor/slim/config/common_full_phone.mk)
 # Inherit device configuration
 
+$(call inherit-product, vendor/slim/config/nfc_enhanced.mk)
+
 PRODUCT_DEVICE := klte
 PRODUCT_NAME := slim_klte
 PRODUCT_BRAND := samsung
