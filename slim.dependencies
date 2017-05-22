@@ -1,0 +1,7 @@
+[
+{
+"repository": "SlimRoms/kernel_samsung_klte",
+"target_path": "kernel/samsung/klte",
+"branch": "ng7.1"
+}
+]
