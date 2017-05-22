@@ -2,7 +2,7 @@ set -e
 
 # Required!
 export DEVICE=klte
-export DEVICE_COMMON=msm8974-common
+export DEVICE_COMMON=klte-common
 export VENDOR=samsung
 
-./../../$VENDOR/$DEVICE_COMMON/extract-files.sh $@
+./../../$DEVICE_COMMON/extract-files.sh $@
