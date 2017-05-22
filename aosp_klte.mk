@@ -18,9 +18,6 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from bacon device
 $(call inherit-product, device/samsung/klte/full_klte.mk)
 
-# Inherit some common CM stuff.
-$(call inherit-product, vendor/cos/common.mk)
-
 COS_RELEASE=true
 PRODUCT_NAME := cos_klte
 PRODUCT_DEVICE := klte
