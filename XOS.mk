@@ -19,10 +19,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/samsung/klte/full_klte.mk)
 
 # Inherit some common CM stuff.
-$(call inherit-product, vendor/cos/common.mk)
+$(call inherit-product, vendor/xos/config/common.mk)
 
 COS_RELEASE=true
-PRODUCT_NAME := xos_klte
+PRODUCT_NAME := XOS_klte
 PRODUCT_DEVICE := klte
 PRODUCT_MANUFACTURER := Samsung
 PRODUCT_MODEL := G900x
