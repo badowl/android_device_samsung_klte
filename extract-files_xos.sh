@@ -53,7 +53,7 @@ fi
 # Initialize the helper
 setup_vendor "$DEVICE" "$VENDOR" "$CM_ROOT"
 
-extract "$MY_DIR"/proprietary-files-qc.txt "$SRC"
-extract "$MY_DIR"/proprietary-files.txt "$SRC"
+extract "$MY_DIR"/device-proprietary-files-gsm.txt "$SRC"
+extract "$MY_DIR"/device-proprietary-files.txt "$SRC"
 
 "$MY_DIR"/setup-makefiles.sh
